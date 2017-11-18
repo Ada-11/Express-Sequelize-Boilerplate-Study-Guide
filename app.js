@@ -7,6 +7,7 @@
 
 const express = require('express');
 const nunjucks = require('nunjucks'); //for now, but we will not use nunjucks in the future
+const bodyParser = require('body-parser);
 const morgan = require('morgan');
 const db = require('sequelize');
 const fs = require('fs'); //for __dirname
