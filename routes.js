@@ -5,7 +5,6 @@
 const chalk = require('chalk');
 const express = require('express');
 const models = require('./models');
-const bodyParser = require('body-parser');
 const router = express.Router();
 
 
