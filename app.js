@@ -11,7 +11,6 @@ const morgan = require('morgan');
 const db = require('sequelize');
 const fs = require('fs'); //for __dirname
 const path = require('path'); //for path.join()
-const bodyParser = require('body-parser');
 const chalk = require('chalk'); //cause chalk is great
 const router = require('./routes');
 const models = require('./models');
